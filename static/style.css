@@ -1,0 +1,67 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.upper{
+    float: left;
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.response{
+    margin: auto;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.response img{
+    width: 25%;
+    height: 50%;
+    float: left;
+}
+.response textarea{
+    width: 75%;
+    min-height: 150px;
+}
+textarea{
+    margin-top: 30px;
+    box-shadow: 0px 0px 28px 6px black;
+    font-size: 16px;
+}
+@media screen and (max-width:500px) {
+    .response{
+        display: block;
+    }
+    .response img{
+        width: 50%;
+    }
+    .response textarea{
+        width: 100%;
+    }
+    button{
+        width: 75%;
+    }
+    .upper{
+        display: none;
+    }
+}
+body{
+    height: 100vh;
+    background-image: url("https://wallpaperaccess.com/full/1266901.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+h1{
+    color: white;
+    text-shadow: 5px 2px 20px white;
+    font-size: 52px;
+    line-height: 90px;
+    font-weight: bold;
+}
+.upper{
+   background: black;
+}
